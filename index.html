@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ewa Czech - Portfolio</title>
+    <link href="https://fonts.googleapis.com/css?family=Raleway:200,300,400,500,600,700" rel="stylesheet">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div id="nav-list">
+                <a class="navbar-toggle" id="menu-toggle">
+                    <i class="fa fa-bars"></i>
+                </a>
+                <a class="nav-item" href="">Home</a>
+                <a class="nav-item" href="">About</a>
+                <a class="nav-item" href="">Portfolio</a>
+                <a class="nav-item" href="">Contact</a>
+            </div>   
+        </nav>
+    <div id="intro">
+        <h1 id="welcome-section-h1">Hello, I'm <span>Ewa Czech</span></h1>
+        <p>I'm a Frontend Developer with skills in HTML, CSS, JavaScript and React who's goal is to make your website functional and responsive.</p>
+        <a href="#projects">Learn More</a>
+    </div>
+    </header>
+    <main>
+    <section id="about">
+        <h2>About</h2>
+        <div id="about-description">
+            <div id="about-description-photo">
+                <img src="images/logo.jpeg" alt="">
+            </div>
+            <div id="p-about">
+                    <p>Front-End Web Developer Nanodegree (Udacity/Grow With Google) graduate with several years of
+                        experience in customer service and sales support.</p>
+                    <p>I am currently working and living in Warsaw, Poland.</p>
+                    <p>For any work-related request, please feel free to contact me via phone, email or LinkedIn
+                        account.</p>
+            </div>
+        </div>
+        <div id="skills-section">
+            <h3>I have experience with</h3>
+        </div>
+    </section>
+    <section id="projects">
+        <h2>Projects</h2>
+        <!-- <h4>Here you can find some of my projects:</h2> -->
+        <div id="projects-info">
+            <div class="project-tile" id="memory-game">
+                <div class="overlay">
+                    <h5>Memory Game</h5>
+                    <p>Pure JavaScript</p>
+                    <button><a href="https://eaczechova.github.io/Memory-Game/" target='_blank'>Learn More</a></button>
+                </div>
+            </div>
+            <div class="project-tile" id="arcade-game">
+                <div class="overlay">
+                    <h5>Arcade Game</h5>
+                    <p>Object Oriented JavaScript</p>
+                    <button><a href="https://eaczechova.github.io/Arcade-Game/" target='_blank'>Learn More</a></button>
+                </div>
+            </div>
+            <div class="project-tile" id="restaurantreview">
+                <div class="overlay">
+                    <h5>Restaurant Review</h5>
+                    <p>JavaScript Progressive Web App</p>
+                    <button><a href="https://github.com/eaczechova/Restaurant-Reviews-App" target='_blank'>Learn
+                            More</a></button>
+                </div>
+            </div>
+            <div class="project-tile" id="my-reads">
+                <div class="overlay">
+                    <h5>MyReads - A Book Tracking App</h5>
+                    <p>React.js</p>
+                    <button><a href="https://github.com/eaczechova/MyReads-A-Book-Tracking-App" target='_blank'>Learn
+                            More</a></button>
+                </div>
+            </div>
+            <div class="project-tile" id="hood-map">
+                <div class="overlay">
+                    <h5>Neighborhood Map App</h5>
+                    <p>React.js</p>
+                    <button><a href="https://github.com/eaczechova/Neighborhood-Map-React" target='_blank'>Learn
+                            More</a></button>
+                </div>
+            </div>
+            <div class="project-tile" id="future-projects">
+                <div class="overlay">
+                    <h5>And more to come...</h5>
+                    <p>Web Development Projects</p>
+                    <button><a href=href="https://github.com/eaczechova" target='_blank'>Learn More</a></button>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="contact"></br>
+        <h3>Get in touch</h3>
+        <form id="contact-form" method="post" action="contact_form_handler.php">
+            <input placeholder="Name" type="text" name="name" required>
+            <input placeholder="Email address" type="email" name="email" required>
+            <textarea placeholder="Your Message" type="text" name="message"></textarea>
+            <input type="submit" id="submit-button" value=SUBMIT>
+        </form>
+        <div id="contact-data">
+            <ul>
+                <li><a href="tel:48662047271"><i class="fas fa-phone-square"></i></a></li>
+                <li><a href="mailto:ewa.czech@hotmail.com"><i class="fas fa-envelope"></i></a></li>
+                <li><a href="https://www.linkedin.com/in/ewa-czech-30938127/" target="_blank"><i
+                            class="fab fa-linkedin"></i></a></li>
+                <li><a href="https://github.com/eaczechova" target="_blank"><i class="fab fa-github"></i></a></li>
+            </ul>
+        </div>
+    </section>
+    </main>
+    <footer>
+        <p>&copy202020 Ewa Czech</p>
+    </footer>
+    <script defer src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>
+    <script src="script/index.js"></script>
+</body>
+
+</html>
